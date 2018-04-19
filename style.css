@@ -1,0 +1,233 @@
+.bank-box{
+    height: 410px;
+    width: 302px;
+    position: fixed;
+    right: 50px;
+    top: 40px;
+    
+
+}
+
+.upper-box{
+background: #C40019;
+position: absolute;
+border-top-right-radius: 2%;
+border-top-left-radius: 2%;
+height: 245px;
+width: 300px;
+  bottom:40%;
+  right:50px;
+}
+
+.customer-login{
+    background: #C40019;
+        
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: normal; 
+}
+
+input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    display: block;
+    height: 29px;
+    width: 85%;
+    font-family: poalimsanspro arial;
+    font-size: 14px;
+    border-radius:2.5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+}
+
+.dots1{
+    position: absolute;
+    top: 24%;
+    right: 7%;
+    opacity: 0.6;
+}
+
+.dots2{
+    position: absolute;
+    top: 42%;
+    right: 7%;
+    opacity: 0.6;
+}
+
+#dots:hover{
+    opacity: 1;
+}
+
+input::-webkit-input-placeholder {
+    text-align:right;
+ } 
+
+.enter-button{
+    background-color: white;
+    color: rgb(211, 43, 43);
+    height: 28px;
+    width: 45%;
+    display: block;
+    text-align: center;
+    font-family: poalimsanspro ariel;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 1000; 
+    border-radius:17px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+
+.enter-button:hover{
+    background-color: rgba(245, 245, 245, 0.905);
+    cursor: pointer;
+}
+
+.forgot-pass{
+    text-decoration-line: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: poalimsanspro ariel;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.locked-out:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.locked-out .tiptext {
+    visibility: hidden;
+    width: 80%;
+    height: 22px;
+    line-height: 22px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    top: 86%;
+    left: 55%;
+    position: absolute;
+    font-size: 12px;
+}
+
+.locked-out:hover .tiptext {
+    transition-delay: 500ms;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.lower-box{
+        background: rgb(173, 45, 45);
+        font-size: 19px;
+        text-align: center;
+        border-bottom-right-radius: 2%;
+        border-bottom-left-radius: 2%;
+        top: 245px;
+        height: 123px;
+        width: 300px;
+        position: absolute;
+        padding: 29px 0 0 0;
+}
+
+.logo-box{
+    line-height: 65px;
+    background-color: white;
+    position: absolute;
+    height: 45%;
+    width: 85%;
+    border-radius:2.5px;
+    -moz-border-radius:2.5px;
+    -webkit-border-radius:2.5px;
+    top: 20%;
+    right: 5%;
+    padding-right: 10px;
+    text-align: center;
+    font-family: poalimsanspro ariel;
+    font-size: 11pt;
+    font-weight: bold;
+    color: rgba(14, 15, 15, 0.671);
+}
+
+.logo-box:hover {
+    cursor: pointer;
+}
+
+.logo-box .tiptext {
+    visibility: hidden;
+    width:60%;
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    top: 80%;
+    left: 67%;
+    position: absolute;
+    font-size: 12px;
+}
+
+.logo-box:hover .tiptext{
+    transition-delay: 500ms;
+    visibility: visible;
+    cursor: pointer;
+    }
+.open-account{
+    padding-bottom: 5px;
+}
+
+.logo{
+    height: 17%;
+    position: absolute;
+    top: 33%;
+    right: 13%;
+    
+}
+
+.join{
+    text-decoration-line: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: poalimsanspro ariel;
+    padding-top: 85px;
+    font-size: 14px;
+}
+
+.join:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.join .tiptext {
+    visibility: hidden;
+    width:60%;
+    height: 26px;
+    line-height: 26px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    top: 88%;
+    left:48%;
+    position: absolute;
+    font-size: 12px;
+}
+
+.join:hover .tiptext{
+    transition-delay: 500ms;
+    visibility: visible;
+    cursor: pointer;
+    
+}
